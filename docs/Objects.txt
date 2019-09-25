@@ -1,0 +1,22 @@
+Objekts: telefons
+Stavoklis: modelis, krasa, ieslegts, izslegts, uzladets, izladejies
+Uzvediba: vibre, zvana, ladejas, parsuta failus, ieslegt, izslegt
+
+Objekts: lidmašina
+Stavoklis: ražotajs, krasa, gaisa, uz zemes
+Uzvediba: pacelšanas, nolaišanas, lidošana, braukšana pa zemi
+
+Objekts: avize
+Stavoklis: nosaukums, lappušu skaits, melna tinte
+Uzvediba: paškirt lappusi, 
+
+Objekts: zirgs
+Stavoklis: krasa, škirne, stalli, uz lauka, izbadejies
+Uzvediba: iet, skrien, gul, stav, ed
+
+Objekts: gludeklis
+Stavoklis: ieslegts, izslegts, uz gludinašanas dela, uz drebem, ar udeni iekša, bez udens iekša
+Uzvediba: iesledz, izsledz, gludina, darbojas, smidzina udeni
+
+Objekts: datorpele
+Stavoklis: ieslegta, izslegta, darbojas, nedarbojas
