@@ -1,10 +1,10 @@
 Objekts: telefons
-Stavoklis: modelis, krasa, ieslegts, izslegts, uzladets, izladejies
+Stāvoklis: modelis, krasa, ieslegts, izslegts, uzladets, izladejies
 Uzvediba: vibre, zvana, ladejas, parsuta failus, ieslegt, izslegt
 
 Objekts: lidmašina
-Stavoklis: ražotajs, krasa, gaisa, uz zemes
-Uzvediba: pacelšanas, nolaišanas, lidošana, braukšana pa zemi
+Stāvoklis: ražotajs, krasa, gaisa, uz zemes
+Uzvedība: pacelšanas, nolaišanas, lidošana, braukšana pa zemi
 
 Objekts: avize
 Stavoklis: nosaukums, lappušu skaits, melna tinte
