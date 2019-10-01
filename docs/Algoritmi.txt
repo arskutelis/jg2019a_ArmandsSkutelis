@@ -29,3 +29,6 @@ Uzkapt pa kapnem
 Atvert dzivokla durvis 
 Aizvert dzivokla durvis
 Nonem sunim kaklasiksnu
+
+
+//Ok

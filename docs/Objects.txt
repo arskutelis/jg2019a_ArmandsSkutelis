@@ -20,3 +20,6 @@ Uzvediba: iesledz, izsledz, gludina, darbojas, smidzina udeni
 
 Objekts: datorpele
 Stavoklis: ieslegta, izslegta, darbojas, nedarbojas
+
+
+//Ok
