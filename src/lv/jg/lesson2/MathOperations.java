@@ -1,5 +1,5 @@
 
-package lv.jg.lesson1;
+package lv.jg.lesson2;
 import static java.lang.System.out;
 public class MathOperations {
     public static void main(String[] args) {
