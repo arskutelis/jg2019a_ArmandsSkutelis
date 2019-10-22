@@ -2,6 +2,7 @@ package lv.jg.lesson3;
 
 import static java.lang.System.out;
 
+//Ok
 public class ProductTest {
     public static void main(String[] args) {
         Product productMilk = new Product();

@@ -2,6 +2,7 @@ package lv.jg.lesson3;
 
 import static java.lang.System.out;
 
+//Ok
 public class CircleTest {
     public static void main(String[] args) {
         Circle circle = new Circle();
