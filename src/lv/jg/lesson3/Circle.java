@@ -1,5 +1,6 @@
 package lv.jg.lesson3;
 
+//OK
 public class Circle {
     private double radius;
 

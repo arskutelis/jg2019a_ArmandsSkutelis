@@ -1,10 +1,12 @@
 package lv.jg.lesson3;
 
+//Ok
 public class Car {
     private String color;
     private String manufacturer;
     private int year;
 
+    //tā kā geteri nav izmantoti, tad tos vajag dzēst
     public String getColor() {
         return color;
     }
@@ -13,6 +15,7 @@ public class Car {
         this.color = color;
     }
 
+    //neizmantotos geterus dzēšam
     public String getManufacturer() {
         return manufacturer;
     }
@@ -21,6 +24,7 @@ public class Car {
         this.manufacturer = manufacturer;
     }
 
+    //neizmantotos geterus dzēšam
     public int getYear() {
         return year;
     }
@@ -29,6 +33,7 @@ public class Car {
         this.year = year;
     }
 
+    //metode slikts nosaukums, labāk to būtu nosaukt "printMe"
     public void carMethod() {
         System.out.print("The car's color is " + color + ". ");
         System.out.print("The manufacturer of the car is " + manufacturer + ". ");
