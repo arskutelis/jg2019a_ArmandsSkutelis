@@ -41,13 +41,14 @@ public class TV {
 	}
 
 	public void incrementChannel() {
-		if (turnedOn == true) {
+		if (turnedOn == true) {  //salidzināšana ar true nav vajadzīgas, pietiek ar "if (turnedOn)"
 			currentChannel++;
 		} else {
-			turnedOn = false;
+			turnedOn = false;  //šis nav vajadzīgs, jo šeit nonāks tikai, tad ja stāvoklis būs FALSE
 		}
 	}
 
+	//skatīt iepirekšējos komentārus
 	public void decrementChannel() {
 		if (turnedOn == true) {
 			currentChannel--;
@@ -56,6 +57,7 @@ public class TV {
 		}
 	}
 
+	//skatīt iepirekšējos komentārus
 	public void incrementVolume() {
 		if (turnedOn == true) {
 			currentVolumeLevel++;
@@ -64,6 +66,7 @@ public class TV {
 		}
 	}
 
+	//skatīt iepirekšējos komentārus
 	public void decrementVolume() {
 		if (turnedOn == true) {
 			currentVolumeLevel--;
@@ -83,6 +86,8 @@ public class TV {
 				&& Objects.equals(currentVolumeLevel, that.currentVolumeLevel)
 				&& Objects.equals(manufacturer, that.manufacturer) && Objects.equals(turnedOn, that.turnedOn);
 	}
+
+	//aizkomentētu kodu ir jādzēš
 //public String toString() {
 //	return getClass().getName() + "@"
 //			+Integer.toHexString(hashCode());
@@ -102,6 +107,8 @@ public class TV {
 
 	public void setValueChannel(int currentChannel) {
 		this.currentChannel= currentChannel = currentChannel > 0 ? currentChannel : 0;
+//		šādi būs pareizi
+//		this.currentChannel = currentChannel > 0 ? currentChannel : 0;
 }
 	public void setValueVolume(int currentVolumeLevel) {
 		this.currentVolumeLevel= currentVolumeLevel > 0 ? currentVolumeLevel : 0;

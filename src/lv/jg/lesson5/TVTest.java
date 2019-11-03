@@ -1,10 +1,13 @@
 package lv.jg.lesson5;
 
+//ok
+//nav notestēts setValueVolume un setValueChannel
 public class TVTest {
 	public static void main(String[] args) {
 		TV lg = new TV("LG", false, 1, 13);
-		TV samsung = new TV("Samsung", true, 2, 16);
+		TV samsung = new TV("Samsung", true, 2, 16);//typo
 
+		//metodes nosaukums rakstāms ar mazo burtu
 		CheckIfIncrementsChannelWhenSwitchedOff();
 		CheckIfIncrementsChannelWhenSwitchedOn();
 		CheckIfDecrementsChannelWhenSwitchedOff();

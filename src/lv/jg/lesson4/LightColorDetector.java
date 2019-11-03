@@ -1,5 +1,6 @@
 package lv.jg.lesson4;
 
+//Ok
 public class LightColorDetector {
     public String detect(int wavelength) {
         if (wavelength >= 620 && wavelength <= 750) {

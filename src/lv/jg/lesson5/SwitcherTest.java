@@ -1,5 +1,6 @@
 package lv.jg.lesson5;
 
+//Ok
 public class SwitcherTest {
 	public static void main(String[] args) {
 		LightBulb livingRoom = new LightBulb(1, false);

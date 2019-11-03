@@ -1,5 +1,6 @@
 package lv.jg.lesson5;
 
+//pievieno izvadi pirms darbības izpilde un pēc, lai var redzēt ka stāvoklis ir manījies
 public class TVControllerTest {
 	public static void main(String[] args) {
 		
