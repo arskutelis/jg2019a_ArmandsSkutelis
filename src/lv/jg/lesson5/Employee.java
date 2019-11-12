@@ -2,12 +2,15 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
+//lietojam ctrl+alt+l
 public class Employee  {
+
+	//klases laukiem ir jabūt ieksapsulētiem, tātad private
 	String employeeName;
 	String contractNumber;
 	double salary;
 	Department department;
-	
+
 
 	public Employee(String employeeName, String contractNumber, double salary, Department department) {
 		this.contractNumber = contractNumber;
@@ -15,7 +18,7 @@ public class Employee  {
 		this.department = department;
 		this.employeeName = employeeName;
 	}
-	
+
 	public String getContractNumber() {
 		return contractNumber;
 	}
@@ -47,6 +50,7 @@ public class Employee  {
 		if (o == null || getClass() != o.getClass())
 			return false;
 	Employee that = (Employee) o;
+	//domāju, ka darbiniekus atšķiršanai pietiek ar "contractNumber"
 		return Objects.equals(contractNumber, that.contractNumber) && Objects.equals(salary, that.salary)
 				&& Objects.equals(department, that.department);
 

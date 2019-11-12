@@ -2,6 +2,7 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
+//Ok
 public class Book {
 	private String author;
 	private String title;
@@ -35,6 +36,7 @@ public class Book {
 		return Objects.equals(author, that.author) && Objects.equals(title, that.title)
 				&& Objects.equals(pageCount, that.pageCount);
 	}
+	//šim te nav jābūt - dzēst
 //public String toString() {
 //	return getClass().getName() + "@"
 //			+Integer.toHexString(hashCode());

@@ -1,15 +1,16 @@
 package lv.jg.lesson5;
 
+//Ok
 public class BookTest {
 	public static void main(String[] args) {
 		Book azkaban = new Book("J.K.Rowling", "Prisoner of Azkaban", 450);
 		Book potter = new Book("J.K.Rowling", "PhilOsopher's Stone", 450);
 		Book potterHallows = new Book("J.K.Rowling", "Deathly Hallows", 512);
 		Book fantasticBeasts = new Book("J.K.Rowling", "Fantastic Beasts", 875);
-		Book Azkaban = new Book("J.Smith", "Prisoner of Azkaban", 450);
-		Book Potter = new Book("J.K.Rowling", "Philosopher's Stone", 450);
+		Book Azkaban = new Book("J.Smith", "Prisoner of Azkaban", 450);  //mainīgais ar lielo burtu
+		Book Potter = new Book("J.K.Rowling", "Philosopher's Stone", 450); //mainīgais ar lielo burtu
 		Book potterFourth = new Book("J.K.Rowling", "Fantastic Beasts", 875);
-		Book PotterHallows = new Book("J.K.Rowling", "Deathly Hallows", 512);
+		Book PotterHallows = new Book("J.K.Rowling", "Deathly Hallows", 512);//mainīgais ar lielo burtu
 		
 		System.out.println("COMPARE /azkaban/ WITH /Azkaban/");
 		System.out.println(azkaban);

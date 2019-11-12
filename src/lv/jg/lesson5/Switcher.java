@@ -2,6 +2,8 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
+//lietojam ctrl + alt + l
+//kur ir "connect" merode?
 public class Switcher {
 	private LightBulb lightBulb;
 	private boolean turnedOn;
@@ -25,6 +27,7 @@ public class Switcher {
 		return turnedOn;
 	}
 	public void switchOnOff() {
+		//salīdzinājums ar "true" nav nepieciešams
 		if (turnedOn == true) {
 			 turnedOn = false;
 			 lightBulb.turnOff();

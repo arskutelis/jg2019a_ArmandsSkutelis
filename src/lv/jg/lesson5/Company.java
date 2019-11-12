@@ -34,6 +34,7 @@ public class Company {
 		if (o == null || getClass() != o.getClass())
 			return false;
 		Company that = (Company) o;
+		//nav iespējamas divas dažādas kompānijas ar vienu reģistrācijas numuru, tatad pietiek ar "registrationNumber"
 		return Objects.equals(name, that.name) && Objects.equals(registrationNumber, that.registrationNumber);
 
 	}

@@ -32,13 +32,16 @@ public class LightBulb {
 	}
 
 	public boolean turnOn() {
+		//šis if ir lieks, jo nemizmaina stāvokli uz jaunu,
 		if (turnedOn == true) {
 			return turnedOn = true;
 		} else {
+			//pieliec šeit klāt nosacijumu " && !turnedOn"
 			if (currentTurnOnCount < 5) {
 				currentTurnOnCount++;
 				return turnedOn = true;
 			} else {
+				//šī darbība nav nepieciešama, pietiek ar "return turnedOn;"
 				return turnedOn = false;
 			}
 		}

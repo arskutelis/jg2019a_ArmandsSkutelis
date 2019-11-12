@@ -1,5 +1,6 @@
 package lv.jg.lesson4;
 
+//Viens tests tik strādā ;)
 public class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest test = new LightColorDetectorTest();
@@ -13,9 +14,16 @@ public class LightColorDetectorTest {
         test.shouldDetectColor();
     }
 
+    //Varēji aizstāt ar šādu metodi visus izaukumus
+/*    public void shouldTestColor(String color, int wavelength) {
+        LightColorDetector detector = new LightColorDetector();
+        String result = detector.detect(wavelength);
+        compareResult(result.equals(color), "Detects " + wavelength + " color - ");
+    }*/
+
     public void shouldDetectRed() {
         LightColorDetector detector = new LightColorDetector();
-        String result = detector.detect(420);
+        String result = detector.detect(420);  //šeit laikam ir jāmaina skaitlis
         compareResult(result.equals("red"), "Detects red color - ");
     }
 

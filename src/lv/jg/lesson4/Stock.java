@@ -1,7 +1,7 @@
 package lv.jg.lesson4;
 
 public class Stock {
-    public double updPrice;
+    public double updPrice; //public!! objekta stāvoklis nedrīkst būt tieši pieejams.
     private String company;
     private double currentValue, max, min;
 
@@ -12,6 +12,7 @@ public class Stock {
         min = currentValue;
     }
 
+    //daudz neizmantotu geteru - dzēšam
     public String getCompany() {
         return this.company;
     }
@@ -37,9 +38,19 @@ public class Stock {
                 + ", min value = " + min + ", max value = " + max;
     }
 
+    //updPrice - varēja šeit nodot kāparametru metodei  "updatePrice(double newPrice)"
+    //tas atrisinātu public problēmu un viss algoritms paliktu vienkāršāks
     public void updatePrice() {
+        //pēc iespējas izvairamies no situācijas kur ir vairāki "if" iekļauti viens otrā
+        //no tā var izvairīties, ja piemēram darbības sadala mazākās metodēs
         if (currentValue >= updPrice) {
             currentValue = updPrice;
+            //šo salīdzināšanu var iznest atsevišķā metodē
+            //ja salīdzina un ir nepieciešams tikai viena if daļa
+            //tad tas jārāksta "no otras puses", tas ir:
+//            if (updPrice <= min) {
+//                min = updPrice;
+//            }
             if (min <= updPrice) {
             } else {
                 min = updPrice;
@@ -49,6 +60,7 @@ public class Stock {
 
         } else if (currentValue < updPrice) {
             currentValue = updPrice;
+            //skatī iepriekšējo komentāru
             if (max > updPrice) {
             } else {
                 max = updPrice;

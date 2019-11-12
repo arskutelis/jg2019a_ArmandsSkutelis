@@ -2,6 +2,7 @@ package lv.jg.lesson4;
 
 import java.util.Scanner;
 
+//Paskaties uzmanigāk uzdevuma aprakstu, šis īsti neatbilst tam
 public class User {
     public String login;
     public String password;
@@ -15,10 +16,12 @@ public class User {
         User.blocked = blocked;
     }
 
+    //šīm metodēm nedrīkst būt static
     public static int setLoginAttempts() {
-        return loginAttemptsLeft = loginAttemptsLeft - 1;
+        return loginAttemptsLeft = loginAttemptsLeft - 1;  // lietojam "loginAttemptsLeft--"
     }
 
+    //šīm metodēm nedrīkst būt static, jo tām ir jāattiecas uz katru objektu atsevišķi
     public static int resetLoginAttempts() {
         return loginAttemptsLeft = 3;
     }
