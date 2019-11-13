@@ -1,5 +1,6 @@
 package lv.jg.lesson6;
 
+//OK
 public class CarTest {
     public static void main(String[] args) {
         Car audi = new Car("Audi", "silver", 5, 1);

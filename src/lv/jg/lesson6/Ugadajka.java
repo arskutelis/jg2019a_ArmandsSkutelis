@@ -3,11 +3,14 @@ package lv.jg.lesson6;
 import java.util.Random;
 import java.util.Scanner;
 
+//Ievērojam tos principus kurus esam iemācījušies
+//Izmantojam atsevišķas klases, lai veidotu objektus
+//izmantojam iespēju loģiku iznest metodēs utt.
 public class Ugadajka {
 
     public static void main(String[] args) {
         Random random = new Random();
-        Scanner userNumber = new Scanner(System.in);
+        Scanner userNumber = new Scanner(System.in);  //
         System.out.println("Enter a number from 1 to 100");
         userNumber.nextInt();
         System.out.println("..............................");
