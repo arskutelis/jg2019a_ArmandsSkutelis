@@ -1,0 +1,19 @@
+PRODUCT: Product name='Milk', price=1.2, category=Food
+PRODUCT: Product name='Pineapple Dream', price=1.0, category=Drink
+PRODUCT: Product name='Tylenol', price=3.1, category=Medicine
+PRODUCT: Product name='Butter', price=2.2, category=Food
+PRODUCT: Product name='Coca-cola', price=1.7, category=Drink
+PRODUCT: Product name='Sprite', price=1.65, category=Drink
+PRODUCT: Product name='Pandabear', price=15.2, category=Toy
+PRODUCT: Product name='Fanta', price=1.23, category=Drink
+PRODUCT: Product name='Cream', price=1.11, category=Food
+PRODUCT: Product name='Salad', price=4.12, category=Food
+PRODUCT: Product name='Chicken', price=5.1, category=Food
+PRODUCT: Product name='Lamb', price=8.5, category=Food
+PRODUCT: Product name='Pepsi', price=0.25, category=Drink
+PRODUCT: Product name='Latte', price=2.2, category=Drink
+PRODUCT: Product name='Lactobex', price=10.18, category=Medicine
+PRODUCT: Product name='Cleaner', price=1.2, category=Household
+PRODUCT: Product name='Bucket', price=5.25, category=Household
+PRODUCT: Product name='IceCream', price=2.1, category=Food
+PRODUCT: Product name='Cabbage', price=1.45, category=Food

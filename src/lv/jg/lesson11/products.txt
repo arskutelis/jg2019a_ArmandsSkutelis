@@ -1,0 +1,12 @@
+Drink 1.23 Fanta
+Food 1.11 Cream
+Food 4.12 Salad
+Food 5.10 Chicken
+Food 8.50 Lamb
+Drink 0.25 Pepsi
+Drink 2.20 Latte
+Medicine 10.18 Lactobex
+Household 1.20 Cleaner
+Household 5.25 Bucket
+Food 2.10 IceCream
+Food 1.45 Cabbage

@@ -1,0 +1,7 @@
+PRODUCT: Product name='Milk', price=1.2, category=Food
+PRODUCT: Product name='Pineapple Dream', price=1.0, category=Drink
+PRODUCT: Product name='Tylenol', price=3.1, category=Medicine
+PRODUCT: Product name='Butter', price=2.2, category=Food
+PRODUCT: Product name='Coca-cola', price=1.7, category=Drink
+PRODUCT: Product name='Sprite', price=1.65, category=Drink
+PRODUCT: Product name='Pandabear', price=15.2, category=Toy
