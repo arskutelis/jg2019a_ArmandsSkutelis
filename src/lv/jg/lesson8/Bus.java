@@ -2,7 +2,7 @@ package lv.jg.lesson8;
 
 import java.util.Objects;
 
-
+//Ok
 public class Bus extends Car {
     protected String busType;
 

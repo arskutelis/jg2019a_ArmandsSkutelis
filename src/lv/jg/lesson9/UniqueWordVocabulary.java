@@ -3,6 +3,8 @@ package lv.jg.lesson9;
 import java.util.HashSet;
 import java.util.Set;
 
+//Klasei bija jābūt atribūtam kolekcijai kurš sevī satur elemetus
+//bija jābūt atsevišķai metodei addWord, kura pieņem vienu parametru un pievieno to kolekcija
 public class UniqueWordVocabulary {
     public static void main(String[] args) {
         Set<String> words = new HashSet<String>();
@@ -13,6 +15,7 @@ public class UniqueWordVocabulary {
 
     }
 
+    //Kā pievienot citādāku saturu, piemēram bmw, audi utt
     private static void addWords(Set<String> list) {
         list.add("tree");
         list.add("animal");
@@ -23,6 +26,7 @@ public class UniqueWordVocabulary {
         list.add("animal");
     }
 
+    //get metodei ir jaatgriež vertība, nevis japrintē saturs konsulē
     //since Set only takes unique values, this already shows unique
     public static void getUniqueWords(Set<String> unique) {
         System.out.println("Unique entries: " + unique.size());

@@ -2,6 +2,7 @@ package lv.jg.lesson8;
 
 import java.util.Objects;
 
+//ok
 public class PassengerCar extends Car {
     protected int passengers;
 
